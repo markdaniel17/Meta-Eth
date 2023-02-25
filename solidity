@@ -1,0 +1,40 @@
++ pragma solidity ^0.8.0; 
++
++ contract MyContract {
++ uint256 public variable;
++ bool private boolVariable;
++ ddress payable public addressVariable;
++ string public stringVariable;
++
++ function setNumber(uint256 _number) public {uint256 public variable,bool private boolVariable,ddress payable public addressVariable,string public stringVariable}
++             uintVariable = initialValue;
++             boolVariable = initialBool;
++             addressVariable = initialAddress;
++ function getNumber() public view returns (uint256) {
++       return myNumber;
++
++
++ function setString(string memory _string) public {
++      myString = _string;
++
++
++ function getString() public view returns (string memory) {
++ return myString;
++
++
++ function setBool(bool _bool) public {
++ myBool = _bool;
++ 
++
++ function getBool() public view returns (bool) {
++     return myBool;
++
++
++ function setAddress(address _address) public {
++       myAddress = _address;
++
++
++  function getAddress() public view returns (address) {
++      return myAddress;
++ 
++
